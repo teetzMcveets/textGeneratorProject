@@ -1,4 +1,4 @@
-import { relationshipDescriptions, relationshipTips } from './data.js';
+import { relationshipDescriptions, relationshipTips, starSignFacts } from './data.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     const submitBtn = document.getElementById('submitBtn');
@@ -21,11 +21,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const randomTip = relationshipTips[Math.floor(Math.random() * relationshipTips.length)]
 
+        const userFact = starSignFacts[userStarSign][Math.floor(Math.random() * 3)];
+        const partnerFact = starSignFacts[userStarSign][Math.floor(Math.random() * 3)];
+
         if (description) {
             resultDisplay.innerHTML = 
             `<p>${description}</p>
             <p><strong>Chances of success: ${randomPercentage}%</strong></p>
-            <p><em>Tip to improve your relationship: ${randomTip}</em></p>`;
+            <p><em>Tip to improve your relationship: ${randomTip}</em></p>
+            -----------------------------------------------------
+            <p><strong>${userStarSign} Fact: ${userFact}</strong></p>
+            <p><strong>${partnerStarSign} Fact: ${partnerFact}</strong></p>`;
         } else {
             resultDisplay.textContent = 'No description found for this pairing!';
         }

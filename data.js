@@ -102,3 +102,66 @@ export const relationshipTips = [
     "Take time to reflect on your relationship and how to grow together.",
     "Practice forgiveness and let go of past grievances."
 ];
+
+export const starSignFacts = {
+    Aries: [
+        "Aries is ruled by Mars, the planet of action and energy.",
+        "They are known for their fearless and adventurous nature.",
+        "Aries is the first sign of the zodiac, symbolizing leadership."
+    ],
+    Taurus: [
+        "Taurus is ruled by Venus, the planet of love and beauty.",
+        "They are known for their love of comfort and luxury.",
+        "Taurus is an earth sign, symbolizing practicality and stability."
+    ],
+    Gemini: [
+        "Gemini is ruled by Mercury, the planet of communication.",
+        "They are known for their quick wit and adaptability.",
+        "Gemini is represented by the Twins, symbolizing duality."
+    ],
+    Cancer: [
+        "Cancer is ruled by the Moon, representing emotions and intuition.",
+        "They are deeply caring and protective of their loved ones.",
+        "Cancer is symbolized by the Crab, representing their tough exterior and soft interior."
+    ],
+    Leo: [
+        "Leo is ruled by the Sun, symbolizing vitality and confidence.",
+        "They are natural leaders with a flair for drama and creativity.",
+        "Leo is represented by the Lion, symbolizing courage and strength."
+    ],
+    Virgo: [
+        "Virgo is ruled by Mercury, emphasizing their analytical nature.",
+        "They are known for their attention to detail and practicality.",
+        "Virgo is an earth sign, symbolizing their grounded and reliable traits."
+    ],
+    Libra: [
+        "Libra is ruled by Venus, highlighting their love for harmony and beauty.",
+        "They are known for their diplomacy and desire for balance.",
+        "Libra is represented by the Scales, symbolizing fairness and justice."
+    ],
+    Scorpio: [
+        "Scorpio is ruled by Pluto, the planet of transformation and depth.",
+        "They are known for their intense and passionate nature.",
+        "Scorpio is a water sign, symbolizing their emotional depth and intuition."
+    ],
+    Sagittarius: [
+        "Sagittarius is ruled by Jupiter, the planet of expansion and adventure.",
+        "They are known for their optimism and love of exploration.",
+        "Sagittarius is represented by the Archer, symbolizing their quest for knowledge."
+    ],
+    Capricorn: [
+        "Capricorn is ruled by Saturn, representing discipline and responsibility.",
+        "They are known for their ambition and determination.",
+        "Capricorn is an earth sign, symbolizing their practical and grounded nature."
+    ],
+    Aquarius: [
+        "Aquarius is ruled by Uranus, the planet of innovation and originality.",
+        "They are known for their progressive and independent nature.",
+        "Aquarius is an air sign, symbolizing their intellectual and visionary traits."
+    ],
+    Pisces: [
+        "Pisces is ruled by Neptune, representing dreams and spirituality.",
+        "They are known for their empathy and artistic talents.",
+        "Pisces is a water sign, symbolizing their deep emotional connection to the world."
+    ]
+};
