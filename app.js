@@ -24,14 +24,26 @@ document.addEventListener('DOMContentLoaded', () => {
         const userFact = starSignFacts[userStarSign][Math.floor(Math.random() * 3)];
         const partnerFact = starSignFacts[userStarSign][Math.floor(Math.random() * 3)];
 
+        let factsHTML;
+        if (userStarSign === partnerStarSign) {
+            const userFact = starSignFacts[userStarSign][Math.floor(Math.random()* 3)];
+            factsHTML = `<p><strong>${userStarSign} Fact:</strong>${userFact}</p>`;
+        } else {
+            const userFact = starSignFacts[userStarSign][Math.floor(Math.random() * 3)];
+            const partnerFact = starSignFacts[partnerStarSign][Math.floor(Math.random() * 3)];
+            factsHTML = `
+                <p><strong>${userStarSign} Fact:</strong> ${userFact}</p>
+                <p><strong>${partnerStarSign} Fact:</strong> ${partnerFact}</p>
+            `;
+        }
+
         if (description) {
             resultDisplay.innerHTML = 
             `<p>${description}</p>
             <p><strong>Chances of success: ${randomPercentage}%</strong></p>
             <p><em>Tip to improve your relationship: ${randomTip}</em></p>
             -----------------------------------------------------
-            <p><strong>${userStarSign} Fact: ${userFact}</strong></p>
-            <p><strong>${partnerStarSign} Fact: ${partnerFact}</strong></p>`;
+            ${factsHTML}`;
         } else {
             resultDisplay.textContent = 'No description found for this pairing!';
         }
