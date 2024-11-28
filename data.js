@@ -84,3 +84,21 @@ export const relationshipDescriptions = {
     "Aquarius_Pisces": "A dreamy and unconventional bond with plenty of creativity.",
     "Pisces_Pisces": "A deeply emotional and spiritual connection filled with shared dreams."
 };
+
+export const relationshipTips = [
+    "Spend quality time together doing something you both enjoy.",
+    "Communicate openly and honestly about your feelings and expectations.",
+    "Practice active listening and validate each other's emotions.",
+    "Celebrate each other's successes and support each other's dreams.",
+    "Try something new together to keep the relationship exciting.",
+    "Make time to discuss and resolve conflicts calmly and respectfully.",
+    "Express gratitude for the little things your partner does.",
+    "Learn about each other's love languages and act on them.",
+    "Focus on building trust by being consistent and reliable.",
+    "Surprise each other with small gestures of love and appreciation.",
+    "Create shared goals and work towards them as a team.",
+    "Be patient and give each other space when needed.",
+    "Share your hobbies or introduce each other to new activities.",
+    "Take time to reflect on your relationship and how to grow together.",
+    "Practice forgiveness and let go of past grievances."
+];

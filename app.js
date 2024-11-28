@@ -1,4 +1,4 @@
-import { relationshipDescriptions } from './data.js';
+import { relationshipDescriptions, relationshipTips } from './data.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     const submitBtn = document.getElementById('submitBtn');
@@ -19,10 +19,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const randomPercentage = Math.floor(Math.random() * 100) + 1;
 
+        const randomTip = relationshipTips[Math.floor(Math.random() * relationshipTips.length)]
+
         if (description) {
             resultDisplay.innerHTML = 
             `<p>${description}</p>
-            <p><strong>Chances of success: ${randomPercentage}%</strong></p>`
+            <p><strong>Chances of success: ${randomPercentage}%</strong></p>
+            <p><em>Tip to improve your relationship: ${randomTip}</em></p>`;
         } else {
             resultDisplay.textContent = 'No description found for this pairing!';
         }
