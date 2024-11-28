@@ -1,11 +1,48 @@
-* {
-    background-color: darkblue;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center;
 }
 
 h1 {
-    border: 1px solid red;
-    text-align: center;
-    
+    margin-top: 20px;
+    color: #333;
+}
+
+form {
+    margin: 20px auto;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+label, select, button {
+    display: block;
+    margin: 10px auto;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#compatibilityResult {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #444;
 }
